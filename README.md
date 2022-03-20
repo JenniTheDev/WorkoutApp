@@ -28,8 +28,8 @@ At some point, this app needs a name. Workout app is built with Blazor and is de
 
 ## Contributing <a name="Contributing"></a> <br>
 
-Follow [C# coding conventions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions), except braces go on the same line.
-All PRs go to the Dev branch
+Follow [C# coding conventions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions), except braces go on the same line. <br>
+All PRs go to the Dev branch <br>
 Questions? Feel free to ping Jenni#1623 on discord
 
 <br><br>

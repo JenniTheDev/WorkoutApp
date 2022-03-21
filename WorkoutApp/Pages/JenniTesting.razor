@@ -4,18 +4,20 @@
 
 <h6>DropZone from MudBlazor</h6>
 
+
+
 <MudDropContainer T="DropItem" Items="_items" ItemsSelector="@((item,dropzone) => item.Identifier == dropzone)" ItemDropped="ItemUpdated" Class="d-flex flex-wrap flex-grow-1">
     <ChildContent>
-        <MudDropZone T="DropItem" Identifier="Good" Class="rounded mud-background-gray pa-6 ma-8 flex-grow-1">
+        <MudDropZone T="DropItem" Identifier="Good" Class="rounded alert-info pa-6 ma-8 flex-grow-1">
             <MudText Typo="Typo.h6" Class="mb-4">Good</MudText>
          </MudDropZone>
-        <MudDropZone T="DropItem" Identifier="Better" Class="rounded mud-background-gray pa-6 ma-8 flex-grow-1">
+        <MudDropZone T="DropItem" Identifier="Better" Class="rounded alert-danger pa-6 ma-8 flex-grow-1">
             <MudText Typo="Typo.h6" Class="mb-4">Better</MudText>
         </MudDropZone>
-         <MudDropZone T="DropItem" Identifier="Best" Class="rounded mud-background-gray pa-6 ma-8 flex-grow-1">
+         <MudDropZone T="DropItem" Identifier="Best" Class="rounded alert-info pa-6 ma-8 flex-grow-1">
             <MudText Typo="Typo.h6" Class="mb-4">Best</MudText>
         </MudDropZone>
-                 <MudDropZone T="DropItem" Identifier="Super Bestest" Class="rounded mud-background-gray pa-6 ma-8 flex-grow-1">
+                 <MudDropZone T="DropItem" Identifier="Super Bestest" Class="rounded alert-primary pa-6 ma-8 flex-grow-1">
             <MudText Typo="Typo.h6" Class="mb-4">SuperBestest</MudText>
         </MudDropZone>
     </ChildContent>
@@ -23,5 +25,7 @@
         <MudPaper Elevation="25" Class="pa-4 my-4">@context.Name</MudPaper>
     </ItemRenderer>
 </MudDropContainer>
+
+
 
 

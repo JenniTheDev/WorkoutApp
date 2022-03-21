@@ -5,7 +5,7 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkoutApp", "WorkoutApp\WorkoutApp.csproj", "{B7DDCFF0-A52D-410C-9BA5-EA5296DDA7EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkoutApp.Tests", "WorkoutApp.Tests\WorkoutApp.Tests.csproj", "{72BCF8FE-3047-41DD-ADC1-3E811FE6A0D0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkoutApp.Tests", "WorkoutApp.Tests\WorkoutApp.Tests.csproj", "{72BCF8FE-3047-41DD-ADC1-3E811FE6A0D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -12,17 +12,17 @@
     </MudAppBar>
     <MudDrawer @bind-Open="@open" Elevation="1">
         <MudDrawerHeader>
-            <MudText Typo="Typo.h6">My App</MudText>
+            <MudText Typo="Typo.h6">Progressive Overlord</MudText>
         </MudDrawerHeader>
-        <MudNavMenu>
-            <MudNavLink Match="NavLinkMatch.All">Store</MudNavLink>
-            <MudNavLink Match="NavLinkMatch.All">Library</MudNavLink>
-            <MudNavLink Match="NavLinkMatch.All">Community</MudNavLink>
+        <MudNavMenu Rounded="true" Color="Color.Tertiary">
+            <MudNavLink Href="/jennitesting" Match="NavLinkMatch.All">Jenni's Testing</MudNavLink>
+            <MudNavLink Href="/VTesting" Match="NavLinkMatch.All">OnlyFans</MudNavLink>
+            <MudNavLink Match="NavLinkMatch.All">FansOnly</MudNavLink>
         </MudNavMenu>
     </MudDrawer>
     <MudMainContent Class="pt-16 px-16">
         <MudContainer Class="mt-6">
-            <MudAlert Severity="Severity.Success" Class="mt-16">Text inside MudContainer</MudAlert>
+            <WorkoutApp.Pages.JenniTesting></WorkoutApp.Pages.JenniTesting>
         </MudContainer>
     </MudMainContent>
 </MudLayout>

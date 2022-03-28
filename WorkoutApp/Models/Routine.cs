@@ -1,5 +1,5 @@
 ﻿namespace WorkoutApp.Models;
 
 public class Routine {
-    public List<Exercise> Exercises { get; private set; } = new();
+    public List<Day> Days { get; private set; } = new();
 }
